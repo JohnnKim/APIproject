@@ -1,0 +1,5 @@
+import pandas as pd
+df = pd.read_csv('https://firms.modaps.eosdis.nasa.gov/content/notebooks/sample_viirs_snpp_071223.csv')
+
+# show top 5 records
+df.head()
